@@ -1,0 +1,6 @@
+import 'package:jwt_serializer/jwt_serializer.dart';
+
+void main() {
+
+  print(JwtSerializer.decode("eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEyM2U0NTY3LWU4OWItMjNkNC1hMDY2LTQ1Njc2NTk3ODExMSIsImNvbXBhbnlfaWQiOiIxYzg4MTZhNy01ZDNkLTRhMzktYjVmOS02ZjM0NDZlM2I4MWEiLCJsZXZlbCI6IkFkbWluIiwiZXhwaXJlX2F0IjoxNzE1NzY5MDUyfQ.hX3imIugQ_0HNtA6phCmTunz7w-2I9MfUXAlnU4x5lI"));
+}
